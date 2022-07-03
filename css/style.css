@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-neymar ul {
+    list-style: none;
+}
+
+.header-neymar ul li a {
+    
+    color: black;
+}
+
+.logo {
+    width: 150px;
+    background-color: grey;
+    border-radius: 20px;
+    
+}
+
+.carousel-neymar {
+    text-align: center;
+    background-color: gray ;
+    margin: 0 390px;
+    border-radius: 20px;
+   
+}
+
+.carousel-neymar img {
+    width: 700px;
+}
+
+.merch-neymar{
+    background-color: grey;
+    margin: 150px;
+    text-align: center;
+    
+}
+
+.merch-neymar h2 {
+    font-size: 3.2rem;
+    color: white;
+}
+
+.merch-contenedor {
+    width: 300px;
+    margin: 40px auto;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.merch-contenedor img {
+    width: 100%;
+}
+
+.social-contenedor img {
+    width: 120px;
+}
+.inicios {
+text-align: center;
+}
+.neyinicio3 {
+    width: 600px;
+    margin: 0px 100px 0px 150px;
+    padding: 20px;
+    
+}
+.neyinicio4 {
+    text-align: center;
+    width: 600px;
+    margin: 0px 150px 0px 550px;
+    padding: 10px;
+
+}
+
+.inicios5 {
+    width: 600px;
+    margin: 0px 200px 0px 200px;
+}
+.textoney {
+    text-align: center;
+    margin: 10px 230px 10px 230px;
+}
+.inicios7 {
+    width: 600px;
+    margin: 60px 150px 50px 130px;
+}
+.merch-contenedor{
+    background-image: url('../img/fondo.jpg');
+  
+    
+}
+.form{
+    text-align: center;
+    margin: 20px;
+}
+.flex-footer div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: grey;
+    padding: 10px;
+    margin: 20px;
+}
+.flex-footer p {
+    color: white
+    
+}
+.flex-footer h2 {
+    background-color: gray;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+
+}
+.grid-contacto div {
+    display: grid;
+    grid-template-rows: 30px;
+    background-color: gray;
+    padding: 20px;
+    margin: 20px;
+    
+}
+.flex-inicio {
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    
+    background-color: grey;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
