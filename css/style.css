@@ -1,142 +1,201 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ececec;
 }
 
 .header-neymar ul {
-    list-style: none;
+  list-style: none;
 }
 
 .header-neymar ul li a {
-    
-    color: black;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 6px 10px;
+}
+.header-neymar ul li a:hover {
+  color: #f05d23;
+  border-bottom: 1px solid #f05d23;
 }
 
 .logo {
-    width: 150px;
-    background-color: grey;
-    border-radius: 20px;
-    
+  width: 150px;
 }
 
 .carousel-neymar {
-    text-align: center;
-    background-color: gray ;
-    margin: 0 390px;
-    border-radius: 20px;
-   
+  text-align: center;
 }
 
 .carousel-neymar img {
-    width: 700px;
+  width: 100%;
 }
 
-.merch-neymar{
-    background-color: grey;
-    margin: 150px;
-    text-align: center;
-    
+.merch-neymar {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 50px;
 }
 
-.merch-neymar h2 {
-    font-size: 3.2rem;
-    color: white;
+.titulo-merch {
+  font-size: 3.2rem;
+  color: #6235cb;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 40px;
 }
 
 .merch-contenedor {
-    width: 300px;
-    margin: 40px auto;
-    border: 2px solid white;
-    border-radius: 10px;
-    padding: 30px;
+  width: 300px;
+  margin: 40px auto;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 30px;
 }
 
 .merch-contenedor img {
-    width: 100%;
+  width: 100%;
 }
 
 .social-contenedor img {
-    width: 120px;
+  width: 120px;
 }
 .inicios {
-text-align: center;
+  text-align: center;
 }
 .neyinicio3 {
-    width: 600px;
-    margin: 0px 100px 0px 150px;
-    padding: 20px;
-    
+  width: 600px;
+  margin: 0px 100px 0px 150px;
+  padding: 20px;
 }
 .neyinicio4 {
-    text-align: center;
-    width: 600px;
-    margin: 0px 150px 0px 550px;
-    padding: 10px;
-
+  text-align: center;
+  width: 600px;
+  margin: 0px 150px 0px 550px;
+  padding: 10px;
 }
 
 .inicios5 {
-    width: 600px;
-    margin: 0px 200px 0px 200px;
+  width: 600px;
+  margin: 0px 200px 0px 200px;
 }
 .textoney {
-    text-align: center;
-    margin: 10px 230px 10px 230px;
+  text-align: center;
+  margin: 20px;
 }
-.inicios7 {
-    width: 600px;
-    margin: 60px 150px 50px 130px;
+.merch-contenedor {
+  background-color: #111111;
+  border: 1px solid #111111;
+  color: #ececec;
+  font-family: "Noto Sans", sans-serif;
 }
-.merch-contenedor{
-    background-image: url('../img/fondo.jpg');
-  
-    
+.form {
+  text-align: center;
+  margin: 20px;
 }
-.form{
-    text-align: center;
-    margin: 20px;
-}
-.flex-footer div {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    background-color: grey;
-    padding: 10px;
-    margin: 20px;
-}
-.flex-footer p {
-    color: white
-    
-}
-.flex-footer h2 {
-    background-color: gray;
-    margin: 20px;
-    padding: 20px;
-    text-align: center;
 
-}
 .grid-contacto div {
-    display: grid;
-    grid-template-rows: 30px;
-    background-color: gray;
-    padding: 20px;
-    margin: 20px;
-    
+  display: grid;
+  grid-template-rows: 30px;
+  background-color: gray;
+  padding: 20px;
+  margin: 20px;
 }
 .flex-inicio {
-    display: flex;
-    flex-direction: row ;
-    justify-content: space-between;
-    
-    background-color: grey;
-    margin: 30px;
-    padding: 20px;
-    border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header-neymar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-inicio li {
+  margin: 0px 40px;
+}
+.galerianey {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-items: center;
+  margin: 50px 0;
+}
 
+.galerianey img {
+  max-width: 500px;
+  width: 100%;
+}
+
+.mis-comienzos {
+  margin: 30px 0;
+}
+
+.goles-contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.goles-contenedor h6 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: 16px;
+  color: #111111;
+}
+
+.goles-contenedor img {
+  transition: all 0.2s ease;
+}
+
+.goles-contenedor img:hover {
+  transform: scale(1.1);
+}
+.socialicons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.socialicons i {
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .merch-neymar {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .galerianey {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width: 862px) {
+    .header-neymar {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .flex-inicio {
+        flex-direction: column;
+    }
+
+    .flex-inicio li {
+        margin: 10px 0;
+    }
+
+    .merch-neymar {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
