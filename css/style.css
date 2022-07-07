@@ -9,9 +9,6 @@ body {
   background-color: #ececec;
 }
 
-.header-neymar ul {
-  list-style: none;
-}
 
 .header-neymar ul li a {
   text-decoration: none;
@@ -22,6 +19,10 @@ body {
 .header-neymar ul li a:hover {
   color: #f05d23;
   border-bottom: 1px solid #f05d23;
+}
+.headerney{
+  flex-direction: column;
+  margin: 10px;
 }
 
 .logo {
@@ -96,27 +97,17 @@ body {
   font-family: "Noto Sans", sans-serif;
 }
 .form {
-  text-align: center;
-  margin: 20px;
+  max-width: 500px;
+  margin: 20px auto;
 }
 
-.grid-contacto div {
-  display: grid;
-  grid-template-rows: 30px;
-  background-color: gray;
-  padding: 20px;
-  margin: 20px;
-}
+
 .flex-inicio {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.header-neymar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+
 .flex-inicio li {
   margin: 0px 40px;
 }
@@ -163,10 +154,53 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    min-height: 150px;
 }
 .socialicons i {
     font-size: 2rem;
+    cursor: pointer;
 }
+
+.socialicons div {
+  text-align: center;
+}
+.carouselneymar{
+  max-width: 660px;
+  margin: auto;
+}
+.botones{
+  background-color: #6235cb;
+  color: #ececec;
+  border-radius: 5px;
+}
+.botones a {
+  text-decoration: none;
+  color: #ececec;
+  font-family: "Noto Sans", sans-serif;
+  padding: 20px 36px;
+  font-size: 1rem;
+  
+}
+.alineacionboton{
+  text-align: center;
+}
+.flex-footer{
+  background-color: #111111;
+  margin-top: 20px;
+  color: #ececec;
+  font-family: "Noto Sans", sans-serif;
+  padding-top: 20px;
+}
+.flex-footer a {
+  text-decoration: none;
+  color: #ececec;
+}
+.socialicons i:hover{
+  color: #6235cb;
+}
+
+
+
 
 @media screen and (max-width: 1024px) {
     .merch-neymar {
@@ -198,4 +232,10 @@ body {
     .merch-neymar {
         grid-template-columns: repeat(1, 1fr);
     }
+}
+@media screen and (max-width: 991px){
+  .headerney{
+    flex-direction: row;
+  }
+  
 }
