@@ -69,7 +69,28 @@ body {
 }
 .inicios {
   text-align: center;
+  font-family: "Noto Sans", sans-serif;
+  color: #ececec;
 }
+.letramerch{
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+  color:#111111;
+  
+}
+.letracarrera{
+  text-align: center;
+  color: #ececec;
+  font-family: "Noto Sans", sans-serif;
+
+}
+.carreraney{
+  background-color: #111111;
+  margin: 30px;
+  padding: 10px;
+  border-radius: 7px;
+}
+
 .neyinicio3 {
   width: 600px;
   margin: 0px 100px 0px 150px;
@@ -89,6 +110,9 @@ body {
 .textoney {
   text-align: center;
   margin: 20px;
+  font-family: "Noto Sans", sans-serif;
+  color:#ececec;
+  
 }
 .merch-contenedor {
   background-color: #111111;
@@ -126,6 +150,9 @@ body {
 
 .mis-comienzos {
   margin: 30px 0;
+  background-color:#111111;
+  margin: 20px;
+  border-radius: 5px;
 }
 
 .goles-contenedor {
@@ -140,7 +167,7 @@ body {
   font-size: 1.4rem;
   font-weight: 600;
   margin-top: 16px;
-  color: #111111;
+  color: #ececec;
 }
 
 .goles-contenedor img {
