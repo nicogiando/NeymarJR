@@ -32,6 +32,18 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin: 50px; }
+  .merch-neymar .merch-contenedor {
+    width: 300px;
+    margin: 40px auto;
+    border: 2px solid #ececec;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: #111111;
+    border: 1px solid #111111;
+    color: #ececec;
+    font-family: "Noto Sans", sans-serif; }
+    .merch-neymar .merch-contenedor img {
+      width: 100%; }
 
 .titulo-merch {
   font-size: 3.2rem;
@@ -40,19 +52,6 @@ body {
   font-weight: 900;
   text-align: center;
   margin-top: 40px; }
-
-.merch-contenedor {
-  width: 300px;
-  margin: 40px auto;
-  border: 2px solid #ececec;
-  border-radius: 10px;
-  padding: 30px;
-  background-color: #111111;
-  border: 1px solid #111111;
-  color: #ececec;
-  font-family: "Noto Sans", sans-serif; }
-  .merch-contenedor img {
-    width: 100%; }
 
 .social-contenedor img {
   width: 120px; }
