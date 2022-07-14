@@ -1,0 +1,23 @@
+.header-neymar {
+	ul {
+		li {
+			a {
+				text-decoration: none;
+				color: $colorprincipal;
+				font-weight: bold;
+				padding: 6px 10px;
+				&:hover {
+					color: $colornaranja;
+					border-bottom: 1px solid $colornaranja;
+				}
+			}
+		}
+	}
+}
+.headerney {
+	flex-direction: column;
+	margin: 10px;
+}
+.logo {
+	width: 150px;
+}
