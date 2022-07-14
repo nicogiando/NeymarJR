@@ -1,0 +1,217 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@import "base/variables";
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: $colorsecundario;
+}
+
+@import "partials/header";
+.carousel-neymar {
+	text-align: center;
+	img {
+		width: 100%;
+	}
+}
+.merch-neymar {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	margin: 50px;
+}
+.titulo-merch {
+	font-size: 3.2rem;
+	color: $colordetalles;
+	font-family: "Noto Sans", sans-serif;
+	font-weight: 900;
+	text-align: center;
+	margin-top: 40px;
+}
+.merch-contenedor {
+	width: 300px;
+	margin: 40px auto;
+	border: 2px solid $colorsecundario;
+	border-radius: 10px;
+	padding: 30px;
+	background-color: $colorprincipal;
+	border: 1px solid $colorprincipal;
+	color: $colorsecundario;
+	font-family: "Noto Sans", sans-serif;
+	img {
+		width: 100%;
+	}
+}
+.social-contenedor {
+	img {
+		width: 120px;
+	}
+}
+.inicios {
+	text-align: center;
+	font-family: "Noto Sans", sans-serif;
+	color: $colorsecundario;
+}
+.letramerch {
+	text-align: center;
+	font-family: "Noto Sans", sans-serif;
+	color: $colorprincipal;
+}
+.letracarrera {
+	text-align: center;
+	color: $colorsecundario;
+	font-family: "Noto Sans", sans-serif;
+}
+.carreraney {
+	background-color: $colorprincipal;
+	margin: 30px;
+	padding: 10px;
+	border-radius: 7px;
+}
+.neyinicio3 {
+	width: 600px;
+	margin: 0px 100px 0px 150px;
+	padding: 20px;
+}
+.neyinicio4 {
+	text-align: center;
+	width: 600px;
+	margin: 0px 150px 0px 550px;
+	padding: 10px;
+}
+.inicios5 {
+	width: 600px;
+	margin: 0px 200px 0px 200px;
+}
+.textoney {
+	text-align: center;
+	margin: 20px;
+	font-family: "Noto Sans", sans-serif;
+	color: $colorsecundario;
+}
+.form {
+	max-width: 500px;
+	margin: 20px auto;
+}
+.flex-inicio {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	li {
+		margin: 0px 40px;
+	}
+}
+.galerianey {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+	justify-items: center;
+	margin: 50px 0;
+	img {
+		max-width: 500px;
+		width: 100%;
+	}
+}
+.mis-comienzos {
+	margin: 30px 0;
+	background-color: $colorprincipal;
+	margin: 20px;
+	border-radius: 5px;
+}
+.goles-contenedor {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	h6 {
+		font-family: "Noto Sans", sans-serif;
+		font-size: 1.4rem;
+		font-weight: 600;
+		margin-top: 16px;
+		color: $colorsecundario;
+	}
+	img {
+		transition: all 0.2s ease;
+		&:hover {
+			transform: scale(1.1);
+		}
+	}
+}
+.socialicons {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	min-height: 150px;
+	i {
+		font-size: 2rem;
+		cursor: pointer;
+		&:hover {
+			color: $colordetalles;
+		}
+	}
+	div {
+		text-align: center;
+	}
+}
+.carouselneymar {
+	max-width: 660px;
+	margin: auto;
+}
+.botones {
+	background-color: $colordetalles;
+	color: $colorsecundario;
+	border-radius: 5px;
+	a {
+		text-decoration: none;
+		color: $colorsecundario;
+		font-family: "Noto Sans", sans-serif;
+		padding: 20px 36px;
+		font-size: 1rem;
+	}
+}
+.alineacionboton {
+	text-align: center;
+}
+.flex-footer {
+	background-color: $colorprincipal;
+	margin-top: 20px;
+	color: $colorsecundario;
+	font-family: "Noto Sans", sans-serif;
+	padding-top: 20px;
+	a {
+		text-decoration: none;
+		color: $colorsecundario;
+	}
+}
+@media screen and (max-width: 1024px) {
+	.merch-neymar {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+@media screen and (max-width: 980px) {
+	.galerianey {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+@media screen and (max-width: 862px) {
+	.header-neymar {
+		flex-direction: column;
+	}
+}
+@media screen and (max-width: 768px) {
+	.flex-inicio {
+		flex-direction: column;
+		li {
+			margin: 10px 0;
+		}
+	}
+	.merch-neymar {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+@media screen and (max-width: 991px) {
+	.headerney {
+		flex-direction: row;
+	}
+}

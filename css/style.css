@@ -1,47 +1,37 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #ececec;
-}
-
+  background-color: #ececec; }
 
 .header-neymar ul li a {
   text-decoration: none;
-  color: black;
+  color: #111111;
   font-weight: bold;
-  padding: 6px 10px;
-}
-.header-neymar ul li a:hover {
-  color: #f05d23;
-  border-bottom: 1px solid #f05d23;
-}
-.headerney{
+  padding: 6px 10px; }
+  .header-neymar ul li a:hover {
+    color: #f05d23;
+    border-bottom: 1px solid #f05d23; }
+
+.headerney {
   flex-direction: column;
-  margin: 10px;
-}
+  margin: 10px; }
 
 .logo {
-  width: 150px;
-}
+  width: 150px; }
 
 .carousel-neymar {
-  text-align: center;
-}
-
-.carousel-neymar img {
-  width: 100%;
-}
+  text-align: center; }
+  .carousel-neymar img {
+    width: 100%; }
 
 .merch-neymar {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin: 50px;
-}
+  margin: 50px; }
 
 .titulo-merch {
   font-size: 3.2rem;
@@ -49,220 +39,170 @@ body {
   font-family: "Noto Sans", sans-serif;
   font-weight: 900;
   text-align: center;
-  margin-top: 40px;
-}
+  margin-top: 40px; }
 
 .merch-contenedor {
   width: 300px;
   margin: 40px auto;
-  border: 2px solid white;
+  border: 2px solid #ececec;
   border-radius: 10px;
   padding: 30px;
-}
-
-.merch-contenedor img {
-  width: 100%;
-}
+  background-color: #111111;
+  border: 1px solid #111111;
+  color: #ececec;
+  font-family: "Noto Sans", sans-serif; }
+  .merch-contenedor img {
+    width: 100%; }
 
 .social-contenedor img {
-  width: 120px;
-}
+  width: 120px; }
+
 .inicios {
   text-align: center;
   font-family: "Noto Sans", sans-serif;
-  color: #ececec;
-}
-.letramerch{
-  text-align: center;
-  font-family: "Noto Sans", sans-serif;
-  color:#111111;
-  
-}
-.letracarrera{
-  text-align: center;
-  color: #ececec;
-  font-family: "Noto Sans", sans-serif;
+  color: #ececec; }
 
-}
-.carreraney{
+.letramerch {
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+  color: #111111; }
+
+.letracarrera {
+  text-align: center;
+  color: #ececec;
+  font-family: "Noto Sans", sans-serif; }
+
+.carreraney {
   background-color: #111111;
   margin: 30px;
   padding: 10px;
-  border-radius: 7px;
-}
+  border-radius: 7px; }
 
 .neyinicio3 {
   width: 600px;
   margin: 0px 100px 0px 150px;
-  padding: 20px;
-}
+  padding: 20px; }
+
 .neyinicio4 {
   text-align: center;
   width: 600px;
   margin: 0px 150px 0px 550px;
-  padding: 10px;
-}
+  padding: 10px; }
 
 .inicios5 {
   width: 600px;
-  margin: 0px 200px 0px 200px;
-}
+  margin: 0px 200px 0px 200px; }
+
 .textoney {
   text-align: center;
   margin: 20px;
   font-family: "Noto Sans", sans-serif;
-  color:#ececec;
-  
-}
-.merch-contenedor {
-  background-color: #111111;
-  border: 1px solid #111111;
-  color: #ececec;
-  font-family: "Noto Sans", sans-serif;
-}
+  color: #ececec; }
+
 .form {
   max-width: 500px;
-  margin: 20px auto;
-}
-
+  margin: 20px auto; }
 
 .flex-inicio {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-}
+  justify-content: space-between; }
+  .flex-inicio li {
+    margin: 0px 40px; }
 
-.flex-inicio li {
-  margin: 0px 40px;
-}
 .galerianey {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
   justify-items: center;
-  margin: 50px 0;
-}
-
-.galerianey img {
-  max-width: 500px;
-  width: 100%;
-}
+  margin: 50px 0; }
+  .galerianey img {
+    max-width: 500px;
+    width: 100%; }
 
 .mis-comienzos {
   margin: 30px 0;
-  background-color:#111111;
+  background-color: #111111;
   margin: 20px;
-  border-radius: 5px;
-}
+  border-radius: 5px; }
 
 .goles-contenedor {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-}
+  justify-content: center; }
+  .goles-contenedor h6 {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 16px;
+    color: #ececec; }
+  .goles-contenedor img {
+    transition: all 0.2s ease; }
+    .goles-contenedor img:hover {
+      transform: scale(1.1); }
 
-.goles-contenedor h6 {
-  font-family: "Noto Sans", sans-serif;
-  font-size: 1.4rem;
-  font-weight: 600;
-  margin-top: 16px;
-  color: #ececec;
-}
-
-.goles-contenedor img {
-  transition: all 0.2s ease;
-}
-
-.goles-contenedor img:hover {
-  transform: scale(1.1);
-}
 .socialicons {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    min-height: 150px;
-}
-.socialicons i {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 150px; }
+  .socialicons i {
     font-size: 2rem;
-    cursor: pointer;
-}
+    cursor: pointer; }
+    .socialicons i:hover {
+      color: #6235cb; }
+  .socialicons div {
+    text-align: center; }
 
-.socialicons div {
-  text-align: center;
-}
-.carouselneymar{
+.carouselneymar {
   max-width: 660px;
-  margin: auto;
-}
-.botones{
+  margin: auto; }
+
+.botones {
   background-color: #6235cb;
   color: #ececec;
-  border-radius: 5px;
-}
-.botones a {
-  text-decoration: none;
-  color: #ececec;
-  font-family: "Noto Sans", sans-serif;
-  padding: 20px 36px;
-  font-size: 1rem;
-  
-}
-.alineacionboton{
-  text-align: center;
-}
-.flex-footer{
+  border-radius: 5px; }
+  .botones a {
+    text-decoration: none;
+    color: #ececec;
+    font-family: "Noto Sans", sans-serif;
+    padding: 20px 36px;
+    font-size: 1rem; }
+
+.alineacionboton {
+  text-align: center; }
+
+.flex-footer {
   background-color: #111111;
   margin-top: 20px;
   color: #ececec;
   font-family: "Noto Sans", sans-serif;
-  padding-top: 20px;
-}
-.flex-footer a {
-  text-decoration: none;
-  color: #ececec;
-}
-.socialicons i:hover{
-  color: #6235cb;
-}
-
-
-
+  padding-top: 20px; }
+  .flex-footer a {
+    text-decoration: none;
+    color: #ececec; }
 
 @media screen and (max-width: 1024px) {
-    .merch-neymar {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
+  .merch-neymar {
+    grid-template-columns: repeat(2, 1fr); } }
 
 @media screen and (max-width: 980px) {
-    .galerianey {
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
+  .galerianey {
+    grid-template-columns: repeat(1, 1fr); } }
 
 @media screen and (max-width: 862px) {
-    .header-neymar {
-        flex-direction: column;
-    }
-}
+  .header-neymar {
+    flex-direction: column; } }
 
 @media screen and (max-width: 768px) {
-    .flex-inicio {
-        flex-direction: column;
-    }
-
+  .flex-inicio {
+    flex-direction: column; }
     .flex-inicio li {
-        margin: 10px 0;
-    }
+      margin: 10px 0; }
+  .merch-neymar {
+    grid-template-columns: repeat(1, 1fr); } }
 
-    .merch-neymar {
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
-@media screen and (max-width: 991px){
-  .headerney{
-    flex-direction: row;
-  }
-  
-}
+@media screen and (max-width: 991px) {
+  .headerney {
+    flex-direction: row; } }
