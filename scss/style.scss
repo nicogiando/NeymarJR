@@ -10,39 +10,8 @@ body {
 }
 
 @import "partials/header";
-.carousel-neymar {
-	text-align: center;
-	img {
-		width: 100%;
-	}
-}
-.merch-neymar {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	margin: 50px;
-}
-.titulo-merch {
-	font-size: 3.2rem;
-	color: $colordetalles;
-	font-family: "Noto Sans", sans-serif;
-	font-weight: 900;
-	text-align: center;
-	margin-top: 40px;
-}
-.merch-contenedor {
-	width: 300px;
-	margin: 40px auto;
-	border: 2px solid $colorsecundario;
-	border-radius: 10px;
-	padding: 30px;
-	background-color: $colorprincipal;
-	border: 1px solid $colorprincipal;
-	color: $colorsecundario;
-	font-family: "Noto Sans", sans-serif;
-	img {
-		width: 100%;
-	}
-}
+@import "partials/home";
+
 .social-contenedor {
 	img {
 		width: 120px;
