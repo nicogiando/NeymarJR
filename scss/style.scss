@@ -11,6 +11,8 @@ body {
 
 @import "partials/header";
 @import "partials/home";
+@import "base/mixin";
+@import "base/maps";
 
 .social-contenedor {
 	img {
@@ -18,40 +20,35 @@ body {
 	}
 }
 .inicios {
-	text-align: center;
-	font-family: "Noto Sans", sans-serif;
-	color: $colorsecundario;
+	@include textos(map-get($mapColores, colorSecundario), center,"Noto Sans");
+	
 }
 .letramerch {
-	text-align: center;
-	font-family: "Noto Sans", sans-serif;
-	color: $colorprincipal;
+	@include textos($colorprincipal, center,"Noto Sans");
 }
 .letracarrera {
-	text-align: center;
-	color: $colorsecundario;
-	font-family: "Noto Sans", sans-serif;
+	@extend .inicios;
 }
 .carreraney {
-	background-color: $colorprincipal;
+	background-color: map-get($mapColores, colorPrincipal);
 	margin: 30px;
 	padding: 10px;
 	border-radius: 7px;
-}
-.neyinicio3 {
-	width: 600px;
-	margin: 0px 100px 0px 150px;
-	padding: 20px;
-}
-.neyinicio4 {
-	text-align: center;
-	width: 600px;
-	margin: 0px 150px 0px 550px;
-	padding: 10px;
-}
-.inicios5 {
-	width: 600px;
-	margin: 0px 200px 0px 200px;
+	.neyinicio3 {
+		width: 600px;
+		margin: 0px 100px 0px 150px;
+		padding: 20px;
+	}
+	.neyinicio4 {
+		text-align: center;
+		width: 600px;
+		margin: 0px 150px 0px 550px;
+		padding: 10px;
+	}
+	.inicios5 {
+		width: 600px;
+		margin: 0px 200px 0px 200px;
+	}
 }
 .textoney {
 	text-align: center;
@@ -128,9 +125,7 @@ body {
 	margin: auto;
 }
 .botones {
-	background-color: $colordetalles;
-	color: $colorsecundario;
-	border-radius: 5px;
+	@include botones ($colordetalles,$colorsecundario,5px);
 	a {
 		text-decoration: none;
 		color: $colorsecundario;
