@@ -1,0 +1,12 @@
+@mixin textos ($color,$textalign,$fontfamily) {
+    color: $color;
+    text-align: $textalign;
+    font-family: $fontfamily;
+    
+}
+@mixin botones ($backgroundcolor,$color,$borderradius) {
+    background-color: $backgroundcolor;
+    color: $color;
+    border-radius: $borderradius;
+    
+}

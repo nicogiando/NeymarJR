@@ -56,41 +56,33 @@ body {
 .social-contenedor img {
   width: 120px; }
 
-.inicios {
+.inicios, .letracarrera {
+  color: #ececec;
   text-align: center;
-  font-family: "Noto Sans", sans-serif;
-  color: #ececec; }
+  font-family: "Noto Sans"; }
 
 .letramerch {
+  color: #111111;
   text-align: center;
-  font-family: "Noto Sans", sans-serif;
-  color: #111111; }
-
-.letracarrera {
-  text-align: center;
-  color: #ececec;
-  font-family: "Noto Sans", sans-serif; }
+  font-family: "Noto Sans"; }
 
 .carreraney {
   background-color: #111111;
   margin: 30px;
   padding: 10px;
   border-radius: 7px; }
-
-.neyinicio3 {
-  width: 600px;
-  margin: 0px 100px 0px 150px;
-  padding: 20px; }
-
-.neyinicio4 {
-  text-align: center;
-  width: 600px;
-  margin: 0px 150px 0px 550px;
-  padding: 10px; }
-
-.inicios5 {
-  width: 600px;
-  margin: 0px 200px 0px 200px; }
+  .carreraney .neyinicio3 {
+    width: 600px;
+    margin: 0px 100px 0px 150px;
+    padding: 20px; }
+  .carreraney .neyinicio4 {
+    text-align: center;
+    width: 600px;
+    margin: 0px 150px 0px 550px;
+    padding: 10px; }
+  .carreraney .inicios5 {
+    width: 600px;
+    margin: 0px 200px 0px 200px; }
 
 .textoney {
   text-align: center;
