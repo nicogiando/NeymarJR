@@ -31,9 +31,11 @@ body {
 .merch-neymar {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin: 50px; }
+  margin: 50px;
+  min-height: 100vh; }
   .merch-neymar .merch-contenedor {
     width: 300px;
+    height: fit-content;
     margin: 40px auto;
     border: 2px solid #ececec;
     border-radius: 10px;
@@ -74,11 +76,8 @@ body {
   display: flex;
   flex-direction: column; }
   .carreraney .neyinicio3 {
-    max-width: 600px; }
-  .carreraney .neyinicio4 {
-    max-width: 600px; }
-  .carreraney .inicios5 {
-    max-width: 600px; }
+    width: 100%;
+    padding: 20px; }
 
 .textoney {
   text-align: center;
