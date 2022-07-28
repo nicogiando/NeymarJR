@@ -175,7 +175,7 @@ body {
   align-items: center;
   background: #6235cb;
   background: linear-gradient(90deg, #6235cb 22%, #8867d6 54%, #ad98de 85%);
-  margin: 20px;
+  margin-top: 15px;
   height: 350px; }
   .neyhome h4 {
     font-family: "Noto Sans", sans-serif;
