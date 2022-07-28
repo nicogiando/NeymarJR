@@ -14,6 +14,8 @@ body {
 @import "base/mixin";
 @import "base/maps";
 
+
+
 .social-contenedor {
 	img {
 		width: 120px;
@@ -136,11 +138,49 @@ body {
 	color: $colorsecundario;
 	font-family: "Noto Sans", sans-serif;
 	padding-top: 20px;
+	min-height: 35vh;
+	
+	
 	a {
 		text-decoration: none;
 		color: $colorsecundario;
 	}
 }
+.neyhome{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: rgb(98,53,203);
+background: linear-gradient(90deg, rgba(98,53,203,1) 22%, rgba(136,103,214,1) 54%, rgba(173,152,222,1) 85%);
+	margin: 20px;
+	height: 350px;
+	
+	h4{
+		font-family: "Noto Sans", sans-serif;
+		font-size: 2,2rem;
+		font-weight: 600;
+		padding: 10px;
+		color: $colorsecundario;
+		
+		
+		
+
+	}
+	.neyhome2{
+			
+
+	}
+	.neymedioimg{
+		text-align: center;
+		width: 100px;
+		
+		
+		
+	}
+}
+
+
+
 @media screen and (max-width: 1024px) {
 	.merch-neymar {
 		grid-template-columns: repeat(2, 1fr);

@@ -31,8 +31,7 @@ body {
 .merch-neymar {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin: 50px;
-  min-height: 100vh; }
+  margin: 50px; }
   .merch-neymar .merch-contenedor {
     width: 300px;
     height: fit-content;
@@ -164,10 +163,29 @@ body {
   margin-top: 20px;
   color: #ececec;
   font-family: "Noto Sans", sans-serif;
-  padding-top: 20px; }
+  padding-top: 20px;
+  min-height: 35vh; }
   .flex-footer a {
     text-decoration: none;
     color: #ececec; }
+
+.neyhome {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #6235cb;
+  background: linear-gradient(90deg, #6235cb 22%, #8867d6 54%, #ad98de 85%);
+  margin: 20px;
+  height: 350px; }
+  .neyhome h4 {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 2,2rem;
+    font-weight: 600;
+    padding: 10px;
+    color: #ececec; }
+  .neyhome .neymedioimg {
+    text-align: center;
+    width: 100px; }
 
 @media screen and (max-width: 1024px) {
   .merch-neymar {
